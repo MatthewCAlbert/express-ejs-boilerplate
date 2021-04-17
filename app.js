@@ -40,3 +40,5 @@ app.engine("ejs", require("./ejs-extended"));
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
+
+module.exports = app;
