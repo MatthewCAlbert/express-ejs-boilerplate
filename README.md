@@ -12,7 +12,7 @@
 - MVC Pattern
 
 ## Info
-- When using lowdb, if you want to use something like nodemon when developing, please consider set LOWDB_DEVELOPMENT_DIR to outside the folder and set LOWDB_PRODUCTION_DIR as you wish.
+- When using lowdb, if you want to use something like nodemon when developing, please consider set LOWDB_DEVELOPMENT_DIR to outside the folder and set LOWDB_PRODUCTION_DIR as you wish (alternative: use nodemon.json to ignore db files).
 
 ## Removing LowDB
 > Delete utils/lowdb.js, models/[lowdb related], controllers/[lowdb related], and finally remove lowdb package.
